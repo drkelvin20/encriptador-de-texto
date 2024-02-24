@@ -268,7 +268,7 @@ height: 20%;
     }
 
     .btn__copiar{
-        margin-top: 25px;
+        margin: 25px 0 0 25px;
         height: 60px;
     }
 
@@ -283,12 +283,14 @@ height: 20%;
     }
     
     .btn-desencriptar{
-        width: 250px;
+        width: 260px;
         height: 60px;
         border-radius: 24px;
         padding: 20px;
         margin-left: 20px; 
     }
+
+   
 
 }
 
@@ -347,6 +349,7 @@ height: 20%;
     .rectangulo h2 {
        padding-top: 30px;
     }
+    
 }
 
 @media screen and (max-width:430px){
