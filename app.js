@@ -25,3 +25,25 @@ let letra = '';
 let textoEncriptado = '';
 let textoDesencriptado = '';
 let buffer = '';
+
+function btnEncriptar() {
+    document.getElementById('img').style.display = 'none';
+    document.getElementById('titulo').style.display = 'none';
+    document.getElementById('p-copiar').style.display = 'none';
+    document.getElementById('btn-copiar').style.display = 'block';
+
+    textoUsuario = document.getElementById('texto').value;
+
+    for (let i = 0; i < textoUsuario.length; i++) {
+        letra = textoUsuario[i];
+        
+        
+        if (reglas.hasOwnProperty(letra)) {
+            textoEncriptado += reglas[letra];
+        } else {
+            textoEncriptado += letra;
+        }
+    }
+    document.getElementById('texto-encriptado').innerHTML = textoEncriptado;
+    document.getElementById('texto').value = '';
+}
