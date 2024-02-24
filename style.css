@@ -15,3 +15,9 @@ main {
     height: 95%;
     float: left;
 }
+
+.principal {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
