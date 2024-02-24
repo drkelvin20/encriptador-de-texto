@@ -21,3 +21,23 @@ main {
     height: 100%;
     float: left;
 }
+
+.img-logo {
+    width: 120px;
+    height: 48px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.textarea-texto {
+    margin-top: 80px; 
+    margin-left: 240px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color: #0a3871;
+    font-weight: 400;
+    line-height: 48px;
+    background-color:#F3F5FC;
+}
