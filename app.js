@@ -32,7 +32,7 @@ function btnEncriptar() {
     document.getElementById('p-copiar').style.display = 'none';
     document.getElementById('btn-copiar').style.display = 'block';
 
-    textoUsuario = document.getElementById('texto').value;
+    textoUsuario = document.getElementById('texto').value.toLowerCase();
 
     for (let i = 0; i < textoUsuario.length; i++) {
         letra = textoUsuario[i];
@@ -70,3 +70,22 @@ function btnCopiar(){
     var texto = document.getElementById('texto-encriptado').innerHTML;
     navigator.clipboard.writeText(texto);
 }
+
+function verificar_Mayusculas(){
+    textoUsuario = document.getElementById('texto').value;
+    if ( /[^a-z ]/g.test(textoUsuario) ) {
+        alert('No se permiten letras mayúsculas ni carácteres especiales');
+        document.getElementById('texto').value = '';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
