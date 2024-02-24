@@ -49,6 +49,11 @@ function btnEncriptar() {
 }
 
 function btnDesencriptar() {
+    document.getElementById('img').style.display = 'none';
+    document.getElementById('titulo').style.display = 'none';
+    document.getElementById('p-copiar').style.display = 'none';
+    document.getElementById('btn-copiar').style.display = 'block';
+
     textoUsuario = document.getElementById('texto').value;
     textoDesencriptado = textoUsuario;
     
