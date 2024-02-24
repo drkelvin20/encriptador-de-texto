@@ -181,3 +181,95 @@ height: 20%;
     cursor: pointer;
     display: none;
 }
+
+@media screen and (max-width:1280px){
+    .img-logo {
+        width: 100px;
+        height: 40px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .textarea-texto {
+        margin-top: 30px; 
+        margin-left: 150px;
+        width: 650px;
+        height: 350px;
+    }
+   
+    .container-botones{
+        width: 630px;
+        height: 60px;
+        margin-left: 150px;
+        margin-top: 0;
+    }
+
+    .btn-encriptar{
+        width: 300px;
+        height: 60px;
+        padding: 20px;  
+    }
+    
+    .btn-desencriptar{
+        width: 300px;
+        height: 60px;
+        border-radius: 24px;
+        padding: 20px;
+        margin-left: 20px; 
+    }
+
+    .rectangulo {
+        margin-right: 7%;
+    }
+
+    .barra__lateral {
+        margin-top: 20px;
+        width: 350px;
+        height: 95%;
+    }
+
+    .container__principal {
+        height: 80%;
+    }
+
+    .parrafo-des-encriptado {
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        padding: 30px;
+        line-height: 36px;
+        height: 20%; 
+    }
+
+    .container__principal img {
+        width: 250px;
+        height: 226px;
+        margin-left: 48px;
+    }
+    
+    .container__principal h2 {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+        color: #343A40;
+        line-height: 28.8px;
+        margin: 5px 30px;
+    }
+    
+    .p-copiar-texto {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin: 5px;
+        line-height: 24px;  
+    }
+
+    .btn__copiar{
+        margin-top: 25px;
+        height: 60px;
+    }
+
+}
