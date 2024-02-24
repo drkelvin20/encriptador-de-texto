@@ -9,6 +9,7 @@
 
     <main>
         <section class="principal">
+
             <img class="img-logo" src="img/logo.png" alt="log-alura">
             <textarea  class="textarea-texto" placeholder="Ingresa el texto aquí"  id="texto"  cols="40" rows="8"></textarea>
 
@@ -24,6 +25,19 @@
         </section>
 
         <section class="rectangulo">
+            <div class="barra__lateral">
+                <div class="container__principal">
+                    <p id="texto-encriptado" class="parrafo-des-encriptado" ></p>
+                    <img src="img/muñeco.png" alt="" id="img">
+                    <h2 id="titulo">Ningún mensaje fue encontrado</h2>
+                    <p class="p-copiar-texto" id="p-copiar">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+
+                <div class="container__btn">
+                    <button onclick="btnCopiar()" class="btn__copiar" id="btn-copiar">Copiar</button>
+                </div>
+
+            </div>
 
         </section>
 
