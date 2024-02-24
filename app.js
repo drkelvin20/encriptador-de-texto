@@ -47,3 +47,21 @@ function btnEncriptar() {
     document.getElementById('texto-encriptado').innerHTML = textoEncriptado;
     document.getElementById('texto').value = '';
 }
+
+function btnDesencriptar() {
+    textoUsuario = document.getElementById('texto').value;
+    textoDesencriptado = textoUsuario;
+    
+    for (let clave in reglasDesencriptar) {
+        let regex = new RegExp(clave, 'g');
+        textoDesencriptado = textoDesencriptado.replace(regex, reglasDesencriptar[clave]);
+    }
+
+    document.getElementById('texto-encriptado').innerHTML = textoDesencriptado;
+    document.getElementById('texto').value = '';
+}
+
+function btnCopiar(){
+    var texto = document.getElementById('texto-encriptado').innerHTML;
+    navigator.clipboard.writeText(texto);
+}
