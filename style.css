@@ -41,3 +41,15 @@ main {
     line-height: 48px;
     background-color:#F3F5FC;
 }
+
+.textarea-texto::placeholder {
+    color: #0a3871;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;  
+}
+
+.textarea-texto:focus {
+    outline: none;
+}
