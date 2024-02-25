@@ -358,7 +358,7 @@ height: 20%;
     }
     .principal {
         width: 100%;
-        height: 80%; 
+        height: 70%; 
         
     }
     .img-logo {
@@ -374,13 +374,14 @@ height: 20%;
         margin-left: 40px;
         margin-bottom: 5px; 
         width: 343px;
-        height: 400px;
+        height: 300px;
     }
 
     .container-botones{
         width: 343px;
         height: 158px;
         margin-top: 0;
+        
     }
     
     .btn-encriptar{
@@ -416,4 +417,8 @@ height: 20%;
        padding-top: 15px;
     }
 }
+
+
+
+
 
